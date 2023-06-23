@@ -1,4 +1,4 @@
-package edu.clientserver.pr5.domain;
+package edu.ukma.domain;
 
 import lombok.Builder;
 import lombok.Data;

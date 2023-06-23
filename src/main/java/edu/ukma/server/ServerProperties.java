@@ -1,4 +1,4 @@
-package edu.clientserver.pr5.server;
+package edu.ukma.server;
 
 public final class ServerProperties {
 

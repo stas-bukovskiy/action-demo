@@ -1,4 +1,4 @@
-package edu.clientserver.pr5.exception;
+package edu.ukma.exception;
 
 public class ValidationException extends RuntimeException {
     public ValidationException(String message) {

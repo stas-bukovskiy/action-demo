@@ -1,7 +1,7 @@
-package edu.clientserver.repository;
+package edu.ukma.repository;
 
-import edu.clientserver.pr5.connection.ConnectionFactory;
-import edu.clientserver.pr5.domain.Good;
+import edu.ukma.connection.ConnectionFactory;
+import edu.ukma.domain.Good;
 
 import java.sql.*;
 import java.util.ArrayList;

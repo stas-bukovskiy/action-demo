@@ -1,12 +1,12 @@
-package edu.clientserver.pr5;
+package edu.ukma;
 
-import edu.clientserver.pr5.authentication.AuthenticationManager;
-import edu.clientserver.pr5.connection.ConnectionFactory;
-import edu.clientserver.pr5.domain.User;
-import edu.clientserver.pr5.repository.DatabaseInitializer;
-import edu.clientserver.pr5.repository.GoodRepository;
-import edu.clientserver.pr5.repository.UserRepository;
-import edu.clientserver.pr5.server.Server;
+import edu.ukma.authentication.AuthenticationManager;
+import edu.ukma.connection.ConnectionFactory;
+import edu.ukma.domain.User;
+import edu.ukma.repository.DatabaseInitializer;
+import edu.ukma.repository.GoodRepository;
+import edu.ukma.repository.UserRepository;
+import edu.ukma.server.Server;
 import org.apache.commons.codec.digest.DigestUtils;
 
 import java.io.IOException;

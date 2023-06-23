@@ -1,13 +1,13 @@
-package edu.clientserver.pr5.server;
+package edu.ukma.server;
 
 import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import edu.clientserver.pr5.authentication.AuthenticationManager;
-import edu.clientserver.pr5.domain.Good;
-import edu.clientserver.pr5.exception.AuthenticationException;
-import edu.clientserver.pr5.exception.ValidationException;
-import edu.clientserver.pr5.repository.GoodRepository;
+import edu.ukma.authentication.AuthenticationManager;
+import edu.ukma.domain.Good;
+import edu.ukma.exception.AuthenticationException;
+import edu.ukma.exception.ValidationException;
+import edu.ukma.repository.GoodRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 

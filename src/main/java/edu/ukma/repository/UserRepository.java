@@ -1,6 +1,6 @@
-package edu.clientserver.repository;
+package edu.ukma.repository;
 
-import edu.clientserver.pr5.domain.User;
+import edu.ukma.domain.User;
 import lombok.extern.slf4j.Slf4j;
 
 import java.sql.Connection;

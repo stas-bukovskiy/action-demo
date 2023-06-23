@@ -1,10 +1,10 @@
-package edu.clientserver.pr5.server;
+package edu.ukma.server;
 
 import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import edu.clientserver.pr5.authentication.AuthenticationManager;
-import edu.clientserver.pr5.exception.AuthenticationException;
+import edu.ukma.authentication.AuthenticationManager;
+import edu.ukma.exception.AuthenticationException;
 import lombok.RequiredArgsConstructor;
 
 import java.io.IOException;

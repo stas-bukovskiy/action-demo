@@ -1,4 +1,4 @@
-package edu.clientserver.pr5.jwt;
+package edu.ukma.jwt;
 
 public interface TokenProvider {
     String provide(String username);

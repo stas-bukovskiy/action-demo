@@ -1,9 +1,9 @@
-package edu.clientserver.pr5.server;
+package edu.ukma.server;
 
 import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpServer;
-import edu.clientserver.pr5.authentication.AuthenticationManager;
-import edu.clientserver.pr5.repository.GoodRepository;
+import edu.ukma.authentication.AuthenticationManager;
+import edu.ukma.repository.GoodRepository;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;

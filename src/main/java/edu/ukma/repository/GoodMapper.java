@@ -1,6 +1,6 @@
-package edu.clientserver.repository;
+package edu.ukma.repository;
 
-import edu.clientserver.pr5.domain.Good;
+import edu.ukma.domain.Good;
 
 import java.math.BigDecimal;
 import java.sql.ResultSet;

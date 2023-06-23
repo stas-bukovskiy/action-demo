@@ -1,8 +1,8 @@
-package edu.clientserver.pr5.authentication;
+package edu.ukma.authentication;
 
-import edu.clientserver.pr5.domain.User;
-import edu.clientserver.pr5.exception.AuthenticationException;
-import edu.clientserver.pr5.repository.UserRepository;
+import edu.ukma.domain.User;
+import edu.ukma.exception.AuthenticationException;
+import edu.ukma.repository.UserRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;

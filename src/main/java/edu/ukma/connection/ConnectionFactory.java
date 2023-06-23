@@ -1,4 +1,4 @@
-package edu.clientserver.pr5.connection;
+package edu.ukma.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

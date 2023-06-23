@@ -40,14 +40,9 @@ jobs:
       - name: Create JAR file
         run: ./gradlew jar
 
-      - name: Deploy artifacts
-        run: |
-          # Replace this with your deployment commands
-          # For example, if you want to deploy to a Maven repository:
-          ./gradlew publish
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+      - name: Publish package
+        uses: gradle/gradle-build-action@749f47bda3e44aa060e82d7b3ef7e40d953bd629
         with:
-          name: JAR
-          path: build/libs/*.jar
+          arguments: publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
